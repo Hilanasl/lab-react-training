@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 95%;
+  height: 140px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 1px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.random {
+  border: 1px black solid;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.greetings {
+  border: 1px black solid;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.boxColor {
+  text-align: center;
+  padding: 20px;
+}
+
+.colors {
+  text-align: center;
+  padding: 20px;
+  border: 1px black solid;
+  margin-bottom: 10px;
+}
+
+.creditCard {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.stars {
+  font-size: 40px;
+  line-height: 0.5px;
+}
+
+.driver-container {
+  background-color: #455eb5;
+  width: 90%;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-photo {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.cardDriver {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.likeBtn {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+.profilePic {
+  width: 150px;
+  cursor: pointer;
+}
+
+.dice {
+  width: 100px;
+  cursor: pointer;
+}
